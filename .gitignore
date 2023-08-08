@@ -1,6 +1,8 @@
+#les fichiers avec variables d'environnement
 .env
 env.md
-#les fichiers à ne pas inclure rop lourds
+*.sh
+#les fichiers à ne pas inclure trop lourds
 *.h5
 *.mkv
 Fraud_reference_JUL23.csv

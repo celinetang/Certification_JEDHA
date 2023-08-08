@@ -42,6 +42,9 @@ Different tools were used to create the system's interacting with each other :
 
 - The source code is written in Python 3.
 - To locally run app and API you need Docker and Heroku 
+- requirements.txt are included in each folder
+- To run Kafka you need to create a confluent cluster account
+
 
 ## Team contributors
 Ophélie Jouffroy<br/>
