@@ -1,5 +1,8 @@
+.env
+env.md
 #model h5 trop lourds
 *.h5
+
 #mes credentiales
 notes.txt
 run.sh

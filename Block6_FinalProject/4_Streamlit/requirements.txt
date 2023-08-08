@@ -1,0 +1,24 @@
+# altair
+# pydeck
+# plotlyjupyterlab
+pandas
+numpy
+# scikit-learn
+# matplotlib
+# seaborn
+# os
+# libpq-dev
+psycopg2==2.9.3
+psycopg2-binary==2.9.3
+sqlalchemy
+# python-dev
+# trubrics[streamlit]
+streamlit
+# exif
+# streamlit-bokeh-events
+geopy
+wikipedia
+regex
+pyqtgraph
+PyQt5
+streamlit_lottie
