@@ -35,7 +35,6 @@ Different tools were used to create the system's interacting with each other :
     - Producer_real_time_data.py file requests the real time data API cited above and stores them in Kafka Confluent
     - Consumer_real_time_data.py file will take data loaded in Kafka Confluent, load the model and preprocessing pickle from S3 and give out a prediction of a transaction
     - the results are saved in a csv file in the 4_th folder
-    
 - Orchestrate all the actions using Airflow
     - creation of DAGs for prediction and notification
 
@@ -45,6 +44,6 @@ Different tools were used to create the system's interacting with each other :
 - To locally run app and API you need Docker and Heroku 
 
 ## Team contributors
-Ophélie<br/>
+Ophélie Jouffroy<br/>
 Céline Tang<br/>
 Samba<br/>

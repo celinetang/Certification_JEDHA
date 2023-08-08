@@ -1,1 +1,0 @@
-docker run -it -p 4000:80 -e PORT=80 -e AWS_ACCESS_KEY_ID=AKIAW7KCYLHOQJFRAHWJ -e AWS_SECRET_ACCESS_KEY=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 -e ARTIFACT_STORE_URI=s3://jedha-fullstack/lead-mlflow/ -e BACKEND_STORE_URI=postgresql://qittnvsklyjyjz:10077e9ed14b0fd64e7e57a858264e6722331bdc3c28726dabe6040dd9d9b064@ec2-44-215-22-37.compute-1.amazonaws.com:5432/d71m085qnsoifj test
