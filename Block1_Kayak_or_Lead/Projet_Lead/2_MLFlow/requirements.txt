@@ -1,9 +1,0 @@
-boto3
-pandas
-gunicorn
-sklearn
-matplotlib
-seaborn
-plotly
-mlflow
-psycopg2-binary

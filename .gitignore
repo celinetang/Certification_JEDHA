@@ -1,7 +1,10 @@
 .env
 env.md
-#model h5 trop lourds
+#les fichiers à ne pas inclure rop lourds
 *.h5
+*.mkv
+Fraud_reference_JUL23.csv
+fraudTest.csv
 
 #mes credentiales
 notes.txt
