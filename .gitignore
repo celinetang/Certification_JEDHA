@@ -7,6 +7,7 @@ env.md
 *.mkv
 Fraud_reference_JUL23.csv
 fraudTest.csv
+valid/
 
 #mes credentiales
 notes.txt
