@@ -32,7 +32,7 @@ app = FastAPI(
 )
 
 def load_model():
-    model_file = joblib.load('CatBoost.joblib')
+    model_file = joblib.load('CatBoost_model.joblib')
     model = model_file['model']
     feature_encoder = model_file['feature_encoder']
     scaler = model_file['scaler']   
