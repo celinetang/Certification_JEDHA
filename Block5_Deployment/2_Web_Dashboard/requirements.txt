@@ -1,0 +1,14 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+plotly
+openpyxl
+psycopg2==2.9.3
+psycopg2-binary==2.9.3
+streamlit
+streamlit_lottie
+streamlit-option-menu
+pylance
+bokeh==2.4.3
