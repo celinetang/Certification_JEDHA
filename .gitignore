@@ -2,6 +2,7 @@
 .env
 env.md
 *.sh
+.DS_Store
 #les fichiers à ne pas inclure trop lourds
 *.h5
 *.mkv
