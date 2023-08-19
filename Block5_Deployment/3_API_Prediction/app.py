@@ -17,18 +17,11 @@ Submit the characteristics of your car and a Machine Learning model, trained on 
 **Use the endpoint `/predict` to estimate the daily rental price of your car !**
 """
 
-tags_metadata = [
-    {
-        "name": "Predictions",
-        "description": "Use this endpoint for getting predictions"
-    }
-]
-
 app = FastAPI(
     title="💸 Car Rental Price Predictor",
     description=description,
     version="0.1",
-    openapi_tags=tags_metadata
+    ocontact={"name": "Céline Tang"}
 )
 
 def load_model():
@@ -64,11 +57,16 @@ def predict_data(model, preprocessed_data, scaler):
     return predictions.tolist()
 
 class Car(BaseModel):
-    model_key: Literal['Citroën','Peugeot','PGO','Renault','Audi','BMW','Mercedes','Opel','Volkswagen','Ferrari','Mitsubishi','Nissan','SEAT','Subaru','Toyota','other'] 
+    model_key: Literal['Citroën', 'Peugeot', 'PGO', 'Renault', 'Audi', 'BMW', 'Ford',
+       'Mercedes', 'Opel', 'Porsche', 'Volkswagen', 'KIA Motors',
+       'Alfa Romeo', 'Ferrari', 'Fiat', 'Lamborghini', 'Maserati',
+       'Lexus', 'Honda', 'Mazda', 'Mini', 'Mitsubishi', 'Nissan', 'SEAT',
+       'Subaru', 'Suzuki', 'Toyota', 'Yamaha'] 
     mileage: Union[int, float]
     engine_power: Union[int, float]
-    fuel: Literal['diesel','petrol','other']
-    paint_color: Literal['black','grey','white','red','silver','blue','beige','brown','other']
+    fuel: Literal['diesel', 'petrol', 'hybrid_petrol', 'electro']
+    paint_color: Literal['black', 'grey', 'white', 'red', 'silver', 'blue', 'orange',
+       'beige', 'brown', 'green']
     car_type: Literal['convertible','coupe','estate','hatchback','sedan','subcompact','suv','van']
     private_parking_available: bool
     has_gps: bool
@@ -78,8 +76,8 @@ class Car(BaseModel):
     has_speed_regulator: bool
     winter_tires: bool
 
-class CarOptions(BaseModel):
-    car_options: List[Car]
+class CarFeatures(BaseModel):
+    car_features: List[Car]
 
 # Redirect automatically to /docs (without showing this endpoint in /docs)
 @app.get("/", include_in_schema=False)
@@ -88,11 +86,11 @@ async def docs_redirect():
 
 
 @app.post("/predict", tags=["Machine Learning"])
-async def predict(car_options: CarOptions):
+async def predict(car_features: CarFeatures):
     model, feature_encoder, scaler = load_model()
-    preprocessed_data = preprocess_data(car_options.car_options, feature_encoder)
+    preprocessed_data = preprocess_data(car_features.car_features, feature_encoder)
     predictions = predict_data(model, preprocessed_data, scaler)
-    formatted_predictions = [f"Option {i+1}: {round(pred[0])} €" for i, pred in enumerate(predictions)]
+    formatted_predictions = [round(pred[0]) for pred in predictions]
     return {"predictions": formatted_predictions}
 
 
