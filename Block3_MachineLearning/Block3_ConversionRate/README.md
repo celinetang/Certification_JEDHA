@@ -5,7 +5,7 @@ This project is submitted for the Jedha Data Fullstack program certification. It
 
 ## Deliverables
 
-- Video Presentation :
+- Video Presentation : https://share.vidyard.com/watch/LQK2GRY7dnuHeSXngFGS3z?
 - Jupyter notebook including EDA, baseline model training + one other model training
 - leaderboard with scores
 - excel file that enabled a follow-up of the different models trained

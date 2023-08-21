@@ -3,8 +3,8 @@
 This project is submitted for the Jedha Data Fullstack program certification.
 
 ## Deliverables
-
-Personal video presentation: 
+ 
+Personal video presentation : https://share.vidyard.com/watch/vD3MFTBEFBj657eEM7zMwP?
 
 Check out my final dashboard here : 👉 [go to app](https://getaround-final-dashboard-2c0c91f46e90.herokuapp.com/)
 

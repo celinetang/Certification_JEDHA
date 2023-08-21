@@ -8,7 +8,7 @@ This project is submitted for the Jedha Data Fullstack program certification.
 
 DemoDay video presentation (watch group 1 from 6'40 to 19'): [watch here](https://www.youtube.com/watch?v=5qngzP4DGGU )
 
-Personal video presentation: 
+Personal video presentation : https://share.vidyard.com/watch/rXKxxcsA8ttzJoaiwSYCc4?
 
 Powerpoint presentation : [here](https://docs.google.com/presentation/d/1iaaTtyrFAPNk3UaQ-5sxpDKRRIIILs7gO6IsiAauOXQ/edit#slide=id.ga5178bf3d4_2_0)
 

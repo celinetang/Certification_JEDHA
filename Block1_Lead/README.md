@@ -4,7 +4,7 @@ This project is submitted for the Jedha Data Fullstack program certification.
 
 ## Deliverables
 
-Personal video presentation: 
+Personal video presentation : https://share.vidyard.com/watch/VHwkC7UeSKwCQxgfV6qngJ?
 
 Powerpoint presentation : File Slides.pptx
 

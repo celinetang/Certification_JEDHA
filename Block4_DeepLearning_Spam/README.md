@@ -4,7 +4,7 @@ This project is submitted for the Jedha Data Fullstack program certification.
 
 ## Deliverables
 
-- Video Presentation :
+- Video Presentation : https://share.vidyard.com/watch/hFQcBWDftAYk6vB6otB7vU?
 - Jupyter notebook with EDA, preprocessing, model and prediction analysis
 
 

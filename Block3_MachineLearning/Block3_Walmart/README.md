@@ -5,7 +5,7 @@ This project is submitted for the Jedha Data Fullstack program certification.
 
 ## Deliverables
 
-- Video Presentation :
+- Video Presentation : https://share.vidyard.com/watch/nJkMu9X4AP3XpSFPQ3n2Zc?
 - Jupyter notebook with EDA, preprocessing, baseline model, and regularized models by Lasso and Ridge to avoid overfitting. 
 
 

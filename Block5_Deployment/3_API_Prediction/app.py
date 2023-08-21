@@ -8,7 +8,7 @@ import joblib
 import json
 from fastapi import FastAPI, File, UploadFile, Request
 from fastapi.encoders import jsonable_encoder
-from fastapi.responses import RedirectResponse
+from fastapi.responses import RedirectResponse 
 
 description = """
 Welcome to my rental price predictor API !\n

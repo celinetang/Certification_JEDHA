@@ -5,7 +5,7 @@ This project is submitted for the Jedha Data Fullstack program certification.
 
 ## Deliverables
 
-- Video Presentation :
+- Video Presentation : https://share.vidyard.com/watch/d5WCzD68JJMvgbz41oz6RT?
 - Jupyter notebook with two unsupervised clustering algorithms : KMeans and DBScan
 - 2 HTML pages containing maps for each day of the week with animation on timeframe (Daytime, Rush Hour, Evening and Night) 
 

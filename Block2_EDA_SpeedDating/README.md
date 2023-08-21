@@ -10,7 +10,7 @@ This project is submitted for the Jedha Data Fullstack program certification.
     - visualisations
     - explanations on how the statistics and visualisations are relevant to why people agree to a second date
 
-- Check out the 10 minute project presentation video here :
+- Check out the 10 minute project presentation video here : https://share.vidyard.com/watch/7dBLUpw16ron8bZfqFbMhx?
 
 
 ## Project Overview
