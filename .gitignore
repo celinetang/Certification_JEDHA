@@ -10,6 +10,7 @@ Fraud_reference_JUL23.csv
 fraudTest.csv
 valid/
 *14.csv
+.gitignore
 
 
 #mes credentiales
