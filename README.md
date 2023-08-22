@@ -6,4 +6,6 @@ You will find 6 subfolders that correspond to each block to validate for the cer
 
 In each subfolder, you can find source code and README.md file that details the project and its content.
 
-Happy exloring ! 
+Happy exploring ! 
+
+Céline Tang
