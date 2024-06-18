@@ -23,5 +23,7 @@ The dataset has been taken from a Kaggle competition, but with changes made by J
 Each row corresponds to a message, along with a classification if it is spam or not. 
 
 ### Prerequisites 
-This jupyter notebook was written and executed in a Google Colab notebook so as to use tensorflow with a GPU provided by them. 
+This jupyter notebook was written and executed in a Google Colab notebook so as to use tensorflow with a GPU provided by them. It is possible to run it on own computer.
+
+
 
